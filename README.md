@@ -5,6 +5,8 @@ Telegram bot for AI-powered image generation.
 ## Status
 🚧 MVP in progress
 
+---
+
 ## Tech Stack
 - Python
 - aiogram
