@@ -6,7 +6,8 @@ from aiogram.filters import CommandStart, Command
 from aiogram.types import Message
 from dotenv import load_dotenv
 
-from app.commands import BOT_COMMANDS
+from commands import BOT_COMMANDS
+
 
 load_dotenv()
 
