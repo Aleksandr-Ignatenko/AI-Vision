@@ -42,6 +42,7 @@ async def help_handler(message: Message):
 
 
 async def main():
+    await bot.delete_webhook(drop_pending_updates=True)
     await bot.set_my_commands(BOT_COMMANDS)
     await dp.start_polling(bot)
 
