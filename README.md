@@ -20,45 +20,22 @@ Telegram bot for AI-powered image generation.
 ai-vision-bot/
 │
 ├── app/
-│ ├── init.py # ✅ app package
-│ ├── main.py # ✅ entry point (bot startup)
-│ ├── config.py # ✅ environment & settings
-│ │
-│ ├── bot/
-│ │ ├── init.py # ✅ bot package
-│ │ ├── commands.py # ✅ /start, /help commands
-│ │ └── router.py # ✅ aiogram router
-│ │
-│ └── utils/
-│ └── logger.py # 🕒 logging utilities (planned)
+│   ├── main.py                # entry point (bot startup)
+│   ├── config.py              # environment & settings
+│   ├── commands.py            # commands (legacy / to be refactored)
+│   │
+│   └── bot/
+│       ├── commands.py        # /start, /help commands
+│       └── router.py          # aiogram router
 │
-├── .env.example # ✅ environment variables example
-├── requirements.txt # ✅ dependencies
-├── README.md # ✅ project documentation
-└── render.yaml # 🕒 deployment config (planned)ai-vision-bot/
-│
-├── app/
-│ ├── init.py # ✅ app package
-│ ├── main.py # ✅ entry point (bot startup)
-│ ├── config.py # ✅ environment & settings
-│ │
-│ ├── bot/
-│ │ ├── init.py # ✅ bot package
-│ │ ├── commands.py # ✅ /start, /help commands
-│ │ └── router.py # ✅ aiogram router
-│ │
-│ └── utils/
-│ └── logger.py # 🕒 logging utilities (planned)
-│
-├── .env.example # ✅ environment variables example
-├── requirements.txt # ✅ dependencies
-├── README.md # ✅ project documentation
-└── render.yaml # 🕒 deployment config (planned)
+├── .env.example               # environment variables example
+├── .gitignore
+├── .python-version            # Python version
+├── requirements.txt           # dependencies
+├── runtime.txt                # runtime config (Render)
+├── README.md                  # project documentation
 ```
-**Legend:**
-- ✅ implemented
-- 🚧 in progress
-- 🕒 planned
+⚠️ Some files will be refactored as the project grows (queues, logging, AI integration).
 
 ## Commands
 - `/start` — bot introduction
