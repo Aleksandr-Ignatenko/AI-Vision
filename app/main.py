@@ -8,7 +8,6 @@ from dotenv import load_dotenv
 
 from commands import BOT_COMMANDS
 
-
 load_dotenv()
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
