@@ -33,9 +33,10 @@ dp.include_router(bot_router)
 # -------------------------
 app = FastAPI()
 
-@app.get("/")
+@app.api_route("/", methods=["GET", "HEAD"])
 async def healthcheck():
     return {"status": "ok"}
+
 
 # -------------------------
 # Startup tasks
