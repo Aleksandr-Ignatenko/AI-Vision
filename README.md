@@ -28,12 +28,19 @@ ai-vision-bot/
 │       ├── commands.py        # /start, /help commands
 │       └── router.py          # aiogram router
 │
+├── docs/
+│   └── admin.md
+│
+├── images/
+│   ├── ai_vision_ava.png
+│   └── images.txt
+│
 ├── .env.example               # environment variables example
 ├── .gitignore
 ├── .python-version            # Python version
 ├── requirements.txt           # dependencies
 ├── runtime.txt                # runtime config (Render)
-├── README.md                  # project documentation
+└── README.md                  # project documentation
 ```
 ⚠️ Some files will be refactored as the project grows (queues, logging, AI integration).
 
