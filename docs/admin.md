@@ -96,9 +96,9 @@
 > _Продолжая использовать бот, вы соглашаетесь с публичной офертой_
 
 **Кнопки:**
-- 🔔 Подписаться — https://t.me/aivisioon
-- 🔔 Подписаться — https://t.me/motobikerclub
-- ✅ Проверить
+- 🔔 Подписаться — https://t.me/aivisioon (InlineKeyboardButton)
+- 🔔 Подписаться — https://t.me/motobikerclub (InlineKeyboardButton)
+- ✅ Проверить (InlineKeyboardButton)
 
 - [ ] Реализовано
 - [ ] Проверка подписки через Telegram API
